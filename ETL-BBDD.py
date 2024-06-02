@@ -14,7 +14,7 @@
 # ##### Eliminé PRIMARY KEYS(Employee_Number) duplicados en archivo: Fase2 COPIA Patri.
 # ##### He puesto 'Employee_Number' como la primera columna de la tabla.
 
-# In[80]:
+# In[81]:
 
 
 import pandas as pd
@@ -120,46 +120,46 @@ schema_name = 'ABC_Corporation'
 create_schema(host, user, password, schema_name)
 connection = mysql.connector.connect(host=host, user=user, password=password, database=schema_name)
 
-# Nos aseguramos que el schema existe
+# aseguramos que el schema existe
 create_database(connection)
 
 # Insertamos datos a la tabla
-df = pd.read_csv('HR_CLEAN_DATA_2.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/nuriancg/project-da-promo-H-module-3-team-1/Patricia/HR_CLEAN_DATA_2.csv')
 load_data(df, connection)
 
 # Cerramos conexion
 connection.close()
 
 
+# In[89]:
+
+
+df = pd.read_csv('https://raw.githubusercontent.com/nuriancg/project-da-promo-H-module-3-team-1/Patricia/HR_CLEAN_DATA_2.csv')
+nan_columns = df.columns[df.isna().any()].tolist()
+print("columnas con nan:", nan_columns)
+
+
 # #### Lo siguiente son codigos de comprobacion que he usado para mientras aparecian errores (ignorar)
 
-# In[78]:
-
-
-# df = pd.read_csv('HR_CLEAN_DATA_2.csv')
-# nan_columns = df.columns[df.isna().any()].tolist()
-# print("columnas con nan:", nan_columns)
-
-
-# In[75]:
+# In[90]:
 
 
 # df.head()
 
 
-# In[76]:
+# In[84]:
 
 
 # df.index.duplicated().sum()
 
 
-# In[77]:
+# In[85]:
 
 
 # print(df.index.isnull().any())
 
 
-# In[79]:
+# In[86]:
 
 
 # df.Stock_Option_Level.unique()
