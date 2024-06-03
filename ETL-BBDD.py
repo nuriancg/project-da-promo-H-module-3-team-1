@@ -1,20 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# #### Notas:
-
-# ##### He hecho pequeñas modificaciones en la Fase 2 para manejar errores que aparecieron en esta etapa. Estos cambios están indicados como 'Cambios Patri'en el archivo 'Fase 2 COPIA' el cuál es una copia de el archivo Fase 2 original con cambios añadidos. No he tocado el original.
-
-# ### Errores  que aparecieron en la ejecución de las funciones :
-
-# ##### Cambio chk_Percent_Salary_Hike CHECK (Percent_Salary_Hike BETWEEN 0 AND 1) a BETWEEN 0 AND 100
-# ##### Agrego Columna 'Satisfaction_Group' en la creacion de la tabla y cambié valores nan por espacios vacios en Fase anterior archivo: Fase2 COPIA Patri.
-# ##### chk_Performance_Rating CHECK (Performance_Rating BETWEEN 1 AND 5) a BETWEEN 0 AND 5
-# ##### Stock_Option_Level constrains a a BETWEEN 0 AND 3. Porque los valores solo llegan a 3
-# ##### Eliminé PRIMARY KEYS(Employee_Number) duplicados en archivo: Fase2 COPIA Patri.
-# ##### He puesto 'Employee_Number' como la primera columna de la tabla.
-
-# In[81]:
 
 
 import pandas as pd
@@ -75,15 +59,15 @@ def create_database(connection):
             Remote_Work BOOLEAN,
             CONSTRAINT chk_Gender CHECK (Gender IN ('F', 'M')),
             CONSTRAINT chk_Over_Time CHECK (Over_Time IN ('True', 'False', 'Unknown')),
-            CONSTRAINT chk_Percent_Salary_Hike CHECK (Percent_Salary_Hike BETWEEN 0 AND 100),
+            CONSTRAINT chk_Percent_Salary_Hike CHECK (Percent_Salary_Hike BETWEEN 0 AND 1),
             CONSTRAINT chk_Education CHECK (Education BETWEEN 1 AND 5),
             CONSTRAINT chk_Job_Involvement CHECK (Job_Involvement BETWEEN 1 AND 5),
             CONSTRAINT chk_Job_Level CHECK (Job_Level BETWEEN 1 AND 5),
             CONSTRAINT chk_Job_Satisfaction CHECK (Job_Satisfaction BETWEEN 1 AND 5),
             CONSTRAINT chk_Marital_Status CHECK (Marital_Status IN ('Married', 'Divorced', 'Single', 'Unknown')),
-            CONSTRAINT chk_Performance_Rating CHECK (Performance_Rating BETWEEN 0 AND 4),
+            CONSTRAINT chk_Performance_Rating CHECK (Performance_Rating BETWEEN 1 AND 5),
             CONSTRAINT chk_Relationship_Satisfaction CHECK (Relationship_Satisfaction BETWEEN 1 AND 5),
-            CONSTRAINT chk_Stock_Option_Level CHECK (Stock_Option_Level BETWEEN 0 AND 3),
+            CONSTRAINT chk_Stock_Option_Level CHECK (Stock_Option_Level BETWEEN 0 AND 4),
             CONSTRAINT chk_Work_Life_Balance CHECK (Work_Life_Balance BETWEEN 1 AND 5)
         );
         """)
@@ -124,43 +108,8 @@ connection = mysql.connector.connect(host=host, user=user, password=password, da
 create_database(connection)
 
 # Insertamos datos a la tabla
-df = pd.read_csv('https://raw.githubusercontent.com/nuriancg/project-da-promo-H-module-3-team-1/Patricia/HR_CLEAN_DATA_2.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/nuriancg/project-da-promo-H-module-3-team-1/master/HR_CLEAN_DATA.csv')
 load_data(df, connection)
 
 # Cerramos conexion
 connection.close()
-
-
-# In[89]:
-
-
-df = pd.read_csv('https://raw.githubusercontent.com/nuriancg/project-da-promo-H-module-3-team-1/Patricia/HR_CLEAN_DATA_2.csv')
-nan_columns = df.columns[df.isna().any()].tolist()
-print("columnas con nan:", nan_columns)
-
-
-# #### Lo siguiente son codigos de comprobacion que he usado para mientras aparecian errores (ignorar)
-
-# In[90]:
-
-
-# df.head()
-
-
-# In[84]:
-
-
-# df.index.duplicated().sum()
-
-
-# In[85]:
-
-
-# print(df.index.isnull().any())
-
-
-# In[86]:
-
-
-# df.Stock_Option_Level.unique()
-
