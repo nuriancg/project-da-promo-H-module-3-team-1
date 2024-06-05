@@ -40,7 +40,6 @@ def create_database(connection):
             Job_Role VARCHAR(100),
             Job_Satisfaction TINYINT,
             Marital_Status VARCHAR(100),
-            Monthly_Income INT,
             Monthly_Rate INT,
             Num_Companies_Worked INT,
             Over_Time VARCHAR(50),
