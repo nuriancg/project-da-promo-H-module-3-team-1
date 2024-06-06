@@ -56,14 +56,14 @@ _In this dropdown, you will find the description and distribution in the origina
 ### Phases: 🔄 
 _To complete development of this project  and ensure the integrity of the data provided by the client, five phases were carried out._
 
-<details>
-<summary> Phases:</summary>
-** Phase 1: _Data Exploration and Cleaning_**
-** Phase 2: _Data Transformation_**
-** Phase 3: _Database Design and Implementation_**
-** Phase 4: _A/B Testing_**
-** Phase 5: _ETL Creation_**
-** Phase 6: _Results Reporting_**
+<details> <summary> Phases:</summary>
+   
+1. **Phase: _Data Exploration and Cleaning_**
+2. **Phase: _Data Transformation_**
+3. **Phase: _Database Design and Implementation_**
+4. **Phase: _A/B Testing_**
+5. **Phase: _ETL Creation_**
+6. **Phase: _Results Reporting_**
 
 </details>
 
@@ -107,7 +107,7 @@ _In this repository you will find a star-shaped structure, which simplifies anal
 
 ### Description of the information you will find in the final BBDD: 📌
 
-__In this dropdown, you will find the description and distribution in the final document._ 😊
+_In this dropdown, you will find the description and distribution in the final document._ 😊
 
   <details>
 <summary> Dictionary:</summary>
