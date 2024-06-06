@@ -11,7 +11,7 @@ _ABC Corporation, founded in 1980 in California, is a technology consulting firm
 _Present the results of exploratory data analysis, design an A/B experiment to test critical hypotheses, and analyze the results to provide ABC Corporation with valuable and truthful information._
 
 ### Initial Documentation: 📌
-_In this dropdown, you will find the description and distribution in the original document._ 😊
+_In this dropdown, you will find the description and distribution in the original document._  😊
 
 <details>
 <summary> Dictionary:</summary>
