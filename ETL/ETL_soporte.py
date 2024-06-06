@@ -14,13 +14,13 @@ from mysql.connector import Error
 # In[30]:
 
 
-def crear_schema(host, user, password, schema_name):
+def crear_bbdd(host, user, password, bbdd_name):
     try:
         connection = mysql.connector.connect(host=host, user=user, password=password)
         if connection.is_connected():
             cursor = connection.cursor()
-            cursor.execute(f"CREATE DATABASE IF NOT EXISTS {schema_name}")
-            print(f"Database '{schema_name}' creada o ya existe.")
+            cursor.execute(f"CREATE DATABASE IF NOT EXISTS {bbdd_name}")
+            print(f"Database '{bbdd_name}' creada o ya existe.")
             cursor.close()
         connection.close()
     except Error as e:
@@ -31,7 +31,7 @@ def crear_schema(host, user, password, schema_name):
 # In[31]:
 
 
-def crear_base_datos(connection):
+def crear_tablas(connection):
     cursor = connection.cursor()
     try:
         queries = ["""

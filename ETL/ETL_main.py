@@ -1,5 +1,5 @@
 #%%
-from ETL_soporte import crear_schema, crear_base_datos, insertar_datos_tabla
+from ETL_soporte import crear_bbdd, crear_tablas, insertar_datos_tabla
 from mysql.connector import Error
 import mysql.connector
 import pandas as pd
@@ -12,13 +12,13 @@ def main():
     data_url = 'https://raw.githubusercontent.com/nuriancg/project-da-promo-H-module-3-team-1/master/HR_CLEAN_DATA.csv'
 
     
-    crear_schema(host, user, password, schema_name)
+    crear_bbdd(host, user, password, schema_name)
 
     
     connection = mysql.connector.connect(host=host, user=user, password=password, database=schema_name)
     
    
-    crear_base_datos(connection)
+    crear_tablas(connection)
 
   
     df = pd.read_csv(data_url)
