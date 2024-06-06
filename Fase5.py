@@ -67,16 +67,3 @@ while True:
                 continue
          
 
-
-
-    
-
-
-   
-
-
-        
-
-        
-    
-# %%
