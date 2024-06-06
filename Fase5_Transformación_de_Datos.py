@@ -26,7 +26,7 @@ def leer_fichero(url):
     
     df_original = pd.read_csv(url, index_col=0)
 
-    print('Tu fichero se ha almacenado corerctamente en la memória virtual.')
+    print('\N{floppy disk}','Tu fichero se ha almacenado corerctamente en la memória virtual.')
     return df_original
 
 
@@ -354,7 +354,7 @@ def transformacion_datos(data):
     lista_columnas_8.remove('Remote_Work')
     data = eliminar_duplicados(data, lista_columnas_8)
 
-    print('Los datos se han transformado correctamente.')
+    print(f' \N{check mark}',' Los datos se han transformado correctamente.')
     return data
 
 
@@ -381,7 +381,7 @@ def cambio_employee_num (data):
     
     data = set_col_index(data, 'Employee_Number')
 
-    print('Se han generado los "Employee Number" que faltaban correctamente.')
+    print(f' \N{check mark}',' Se han generado los "Employee Number" que faltaban correctamente.')
     return data
 
 
@@ -389,7 +389,7 @@ def cambio_employee_num (data):
 def guardar_fichero(data, url):
     
     data.to_csv(url, index=True)
-    print(f'Archivo guardado en {url}')
+    print(f' \N{check mark}',f' Archivo guardado en {url}')
 
 
 
