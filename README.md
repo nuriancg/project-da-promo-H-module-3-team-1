@@ -1,6 +1,19 @@
-# TALENT  OPTIMIZATION!!!
+# ABC Corporation's Talent Optimization!!!
 
-_ABC Corporación's Talent Optimization Initiative aimed to respond to different aspects related to their company's human resources. Our team of expert data analysts leveraged the agile methodology to develop this goal efficiently and in record time._
+__ABC Corporation's Talent Optimization Initiative aims to respond to different aspects related to the human resources of their company. For which he has hired the services of our company Data Gatgets._
+
+_**Data Gatgets** is a company formed by a group of data analysts who use agile methodology to meet each proposed objective efficiently and in record time._
+
+### Data Gatgets Team: 📈🔍
+
+|Names|GitHub_link_user_name|
+|-----|------------------|
+|_Patricia González_|https://github.com/Patri-EGG|
+|_Paola Sánchez_|https://github.com/paolasanchezsolorzano|
+|_Fernanda Martí_|https://github.com/fernandaMarti|
+|_Nuria Cano_| https://github.com/nuriancg|
+|_Raquel Castellanos_|https://github.com/RachelCaste|
+
 
 ### Client Description: 👨‍💻
 
@@ -11,7 +24,7 @@ _ABC Corporation, founded in 1980 in California, is a technology consulting firm
 _Present the results of exploratory data analysis, design an A/B experiment to test critical hypotheses, and analyze the results to provide ABC Corporation with valuable and truthful information._
 
 ### Initial Documentation: 📌
-_In this dropdown, you will find the description and distribution in the original document._  😊
+_In this dropdown, you will find the description of each of the columns of the original document._  😊
 
 <details>
 <summary> Dictionary:</summary>
@@ -56,16 +69,21 @@ _In this dropdown, you will find the description and distribution in the origina
 ### Phases: 🔄 
 _To complete development of this project  and ensure the integrity of the data provided by the client, five phases were carried out._
 
-<details> <summary> Phases:</summary>
-   
-1. **Phase: _Data Exploration and Cleaning_**
-2. **Phase: _Data Transformation_**
-3. **Phase: _Database Design and Implementation_**
-4. **Phase: _A/B Testing_**
-5. **Phase: _ETL Creation_**
-6. **Phase: _Results Reporting_**
 
-</details>
+   
+* **Phase 1: _Data Exploration and Cleaning_**
+  
+* **Phase 2: _Data Transformation_**
+  
+* **Phase 3: _Database Design and Implementation_**
+  
+* **Phase 4: _A/B Testing_**
+  
+* **Phase 5: _ETL Creation_**
+  
+* **Phase 6: _Reporting_**
+
+
 
 ### To play this project on your computer: 🐍 and 🐬
 _For the project you will need to have a version of Python and MySQL and get to work._
@@ -107,7 +125,7 @@ _In this repository you will find a star-shaped structure, which simplifies anal
 
 ### Description of the information you will find in the final BBDD: 📌
 
-_In this dropdown, you will find the description and distribution in the final document._ 😊
+_In this dropdown, you will find the description and distribution of each of the columns of the  final document._ 😊
 
   <details>
 <summary> Dictionary:</summary>
