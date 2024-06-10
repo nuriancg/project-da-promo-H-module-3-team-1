@@ -28,7 +28,7 @@ _Presentar los resultados del análisis exploratorio de datos, diseñar un exper
 _En esta sección, encontrarás la descripción de cada una de las columnas del documento original._
 
 <details>
-<summary> Dictionario:</summary>
+<summary> Diccionario:</summary>
 
 | Nombre de la columna        | Descripción                                                                                  |
 | ------------------- | --------------------------------------------------------------------------------------------- |
@@ -116,7 +116,7 @@ _Para trabajar en este proyecto, necesitarás tener instaladas versiones de Pyth
 _En este repositorio encontrarás una estructura en forma de estrella, que simplifica las consultas analíticas y es útil para el análisis de grandes volúmenes de datos._
 
 <details>
-  <summary>Structura</summary>
+  <summary>Estructura</summary>
   <img src="https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Diagrama%20BBDD.png" alt="Diagrama BBDD">
 </details>
 
@@ -126,7 +126,7 @@ _En este desplegable, encontrarás la descripción y distribución de cada una d
 
 
   <details>
-<summary> Dictionario:</summary>
+<summary> Diccionario:</summary>
 
 | Nombre de la columna         | Descripción                                                                                 |
 | ------------------- | --------------------------------------------------------------------------------------------- |
