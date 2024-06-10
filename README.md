@@ -1,4 +1,4 @@
-**(_informatión en Inglés al final de esta página_)**
+**(_información en Inglés al final de esta página_)**
 
 # Iniciativa de Optimización de Talento de ABC Corporation
       
