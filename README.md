@@ -28,7 +28,7 @@ _Presentar los resultados del análisis exploratorio de datos, diseñar un exper
 _En esta sección, encontrarás la descripción de cada una de las columnas del documento original._
 
 <details>
-<summary> Dictionary:</summary>
+<summary> Dictionario:</summary>
 
 | Nombre de la columna        | Descripción                                                                                  |
 | ------------------- | --------------------------------------------------------------------------------------------- |
@@ -126,7 +126,7 @@ _En este desplegable, encontrarás la descripción y distribución de cada una d
 
 
   <details>
-<summary> Dictionary:</summary>
+<summary> Dictionario:</summary>
 
 | Nombre de la columna         | Descripción                                                                                 |
 | ------------------- | --------------------------------------------------------------------------------------------- |
@@ -166,6 +166,7 @@ RemoteWork| Whether the employee can work remotely or not.|
 
 </details>
 
+________________________________________________________________________________________________________________________________________________________
 
 <details>
    
