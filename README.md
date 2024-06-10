@@ -118,7 +118,7 @@ _En este repositorio encontrarás una estructura en forma de estrella, que simpl
 
 <details>
   <summary>Estructura</summary>
-  <img src="https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Diagrama%20BBDD.png" alt="Diagrama BBDD">
+  <img src='https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/Diagrama%20BBDD.png' alt="Diagrama BBDD">
 </details>
 
 ### Descripción de la Información en la Base de Datos Final 📌
@@ -203,7 +203,7 @@ RemoteWork| Whether the employee can work remotely or not.|
 
 <details>
   <summary>Gráficos Tasas de Rotación</summary>
-  <img src="https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Gr%C3%A1ficos%20Tasas%20de%20Rotaci%C3%B3n.png" alt="Gráficos Tasas de Rotación">
+  <img src="https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/Gr%C3%A1ficos%20Tasas%20de%20Rotaci%C3%B3n.png" alt="Gráficos Tasas de Rotación">
 </details>
 
 
@@ -374,7 +374,7 @@ _In this repository you will find a star-shaped structure, which simplifies anal
 
 <details>
   <summary>Structure</summary>
-  <img src="https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Diagrama%20BBDD.png" alt="Diagrama BBDD">
+  <img src="https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/Diagrama%20BBDD.png" alt="Diagrama BBDD">
 </details>
 
 
@@ -459,7 +459,7 @@ ttest_ind()|	It is a statistical test used to compare two groups and determine i
 
 <details>
   <summary>Rotation Rate Charts</summary>
-  <img src="https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Rotation%20Rate%20Charts.png" alt="Rotation Rate Charts">
+  <img src="https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/Rotation%20Rate%20Charts.png" alt="Rotation Rate Charts">
 </details>
 
 
