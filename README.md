@@ -1,4 +1,5 @@
-**(_información en Inglés al final de esta página_)**
+**(_English information at the end of this page_)**
+
 
 # Iniciativa de Optimización de Talento de ABC Corporation
       
@@ -166,7 +167,74 @@ RemoteWork| Whether the employee can work remotely or not.|
 
 </details>
 
-________________________________________________________________________________________________________________________________________________________
+### Resolución del Objetivo  🎯🎯
+
+
+* _Para la resolución de nuestro objetivo se dividieron los empleados en dos grupos según el nivel de satisfacción; se calculó la tasa de rotación para cada grupo_
+
+  
+ 
+|Grupo A| Satisfechos|
+|------------------------|--------------------------------------------------------------------------| 
+|**Grupo B** |**Descontentos**|
+
+
+
+* _Se establecieron dos hipótesis:_
+  
+ 
+|Hipótesis Nula (H0)| No hay asociación entre el estatus de empleo y el nivel de satisfacción.|
+|------------------------|--------------------------------------------------------------------------| 
+|**Hipótesis Alternativa (H1)**|**Existe una asociación entre el estatus de empleo y el nivel de satisfacción.**|
+
+
+
+* _Se llevó a cabo un análisis estadístico para determinar si hay una diferencia significativa en la tasa de rotación entre los grupos A y B, aplicando:_
+
+  
+
+|Tipo de prueba| Descripción|
+ |--------------------|---------|
+ |ttest_ind()| _Es una prueba estadística que se utiliza para comparar dos grupos y determinar si hay una diferencia significativa entre ellos en términos de una variable que estamos midiendo._|
+|ztest()| _Indica cuántas desviaciones estándar está el resultado observado lejos del valor esperado bajo la hipótesis nula._| 
+|chi2()|_La prueba chi cuadrado  se utiliza para determinar el comportamiento de cierta variable y también para evaluar si dos o más variables son estadísticamente independientes_|
+
+
+
+<details>
+  <summary>Gráficos Tasas de Rotación</summary>
+  <img src="https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Gr%C3%A1ficos%20Tasas%20de%20Rotaci%C3%B3n.png" alt="Gráficos Tasas de Rotación">
+</details>
+
+
+### Interpretación De Resultados:_📈📝
+
+
+*  **ttest:**
+  
+      - _El p_value es: 0.004,  un p-valor menor que 0.05 (5%) se considera suficiente para rechazar la hipótesis nula_
+
+    
+* **Z-test:** _-2.94: Este valor es negativo, lo que indica que la proporción de personas que dejaron la empresa en el Grupo A (empleados satisfechos) es menor que en el Grupo B (empleados descontentos). El valor absoluto que es mayor que 2 sugiere que la diferencia es significativa, pero la dirección de la diferencia es contraria a la del incremento numérico en los datos (es decir, hay menos rotación donde podríamos esperar más, o viceversa)._
+
+     - _P-value: 0.0032: Este es un valor muy bajo. Generalmente, un p-valor menor que 0.05 (5%) se considera suficiente para rechazar la hipótesis nula. Por lo tanto, un p-valor de 0.0032 indica que es muy improbable que la diferencia en las tasas de rotación entre los dos grupos se deba al azar. Asi que, podemos concluir con bastante seguridad que existe una diferencia significativa en las tasas de rotación entre los empleados satisfechos y los descontentos._
+
+
+* **Chi2 test**:
+     - _Chi-squared Test Statistic: 8.2479; este valor indica cuánto se desvían las frecuencias observadas de las frecuencias esperadas bajo la hipótesis nula. Un valor más alto sugiere una mayor desviación._
+
+     - _p-value: 0.0041; Es menor que el nivel de significancia comúnmente aceptado de 0.05. Hay evidencia suficiente para rechazar la hipótesisi nula._
+
+
+   
+### Conclusión: ✅
+
+
+* _Después de someter los datos a diferentes pruebas de estadéstica y con la suficiente evidencia decidimos rechazar la hipótesis nula que está basada en la premisa que el estatus de empleo y la satisfacción son independientes._ 
+
+* _También identificamos que existe una diferencia significativa en los niveles de satisfacción entre los empleados actuales y los exempleados._
+
+_______________________________________________________________________________________________________________________________________
 
 <details>
    
@@ -174,7 +242,7 @@ ________________________________________________________________________________
 
 # ABC Corporation's Talent Optimization!!!
 
-__ABC Corporation's Talent Optimization Initiative aims to respond to different aspects related to the human resources of their company. For which he has hired the services of our company Data Gatgets._
+_ABC Corporation's Talent Optimization Initiative aims to respond to different aspects related to the human resources of their company. For which he has hired the services of our company Data Gatgets._
 
 _**Data Gatgets** is a company formed by a group of data analysts who use agile methodology to meet each proposed objective efficiently and in record time._
 
@@ -198,7 +266,9 @@ _ABC Corporation, founded in 1980 in California, is a technology consulting firm
 _Present the results of exploratory data analysis, design an A/B experiment to test critical hypotheses, and analyze the results to provide ABC Corporation with valuable and truthful information._
 
 ### Initial Documentation: 📌
+
 _In this dropdown, you will find the description of each of the columns of the original document._  😊
+
 
 <details>
 <summary> Dictionary:</summary>
@@ -241,6 +311,7 @@ _In this dropdown, you will find the description of each of the columns of the o
 </details>
 
 ### Phases: 🔄 
+
 _To complete development of this project  and ensure the integrity of the data provided by the client, five phases were carried out._
 
 
@@ -259,9 +330,11 @@ _To complete development of this project  and ensure the integrity of the data p
 
 
 ### To play this project on your computer: 🐍 and 🐬
+
 _For the project you will need to have a version of Python and MySQL and get to work._
 
 ###  Libraries to Import: 📚
+
 
 <details>
 <summary>Libraries to start working:</summary>
@@ -269,37 +342,47 @@ _For the project you will need to have a version of Python and MySQL and get to 
 1. **Data Manipulation** 🧮 🐼
    - **Pandas**
    - **Numpy**
+     
 
 2. **Imputación de datos** 🕵️‍♂️
    - Scikit-learn
      - **SimpleImputer**:_Imputes missing values in a dataset using simple strategies such as mean, median, mode, and others._
      - **IterativeImputer**:_Utilizes iterative techniques, especially useful when relationships between variables are complex._
      - **KNNImputer**:_Uses the K-Nearest Neighbors method to estimate missing values._
+
        
 3. **Data visualization** 📊
    -**Seaborn**: _Provides a high-level interface for creating attractive and informative statistical graphics._
    -**Matplotlib**:_Allows the creation of high-quality static plots suitable for publications and reports._
 
+
 4. **Stadistics and tests** 🧪
    - **Scipy**:_Provides statistical functions and hypothesis tests (e.g., t-tests, chi-square tests, etc.)._
+
      
 5. **Database Connection** ⚡   
    - **mysql.connector**:_A connector for MySQL that allows establishing connections and performing operations on MySQL databases from Python._
 
+
 </details>
+
 
 ### BBDD Structure: 📁
 
 _In this repository you will find a star-shaped structure, which simplifies analytical queries and is useful for the analysis of large volumes of data._
+
 
 <details>
   <summary>Structure</summary>
   <img src="https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Diagrama%20BBDD.png" alt="Diagrama BBDD">
 </details>
 
+
 ### Description of the information you will find in the final BBDD: 📌
 
+
 _In this dropdown, you will find the description and distribution of each of the columns of the  final document._ 😊
+
 
   <details>
 <summary> Dictionary:</summary>
@@ -341,3 +424,68 @@ Date_Birth|The employee’s birth year. (considering data collected in 2023).|
 RemoteWork| Whether the employee can work remotely or not.|
 
 </details>
+
+
+### Target Resolution 🎯🎯
+
+
+_For the resolution of our objective, employees were divided into two groups based on their satisfaction level; the turnover rate was calculated for each group._
+
+
+|Group A| Satisfied|
+|--------|----------|
+|**Group B**|**Dissatisfied**|
+
+
+* _Two hypotheses were established:_
+
+
+|Null Hypothesis (H0)	|There is no association between employment status and satisfaction level.|
+|--------------------|------------------------------------------------------|
+|**Alternative Hypothesis (H1)**|	**There is an association between employment status and satisfaction level**.|
+
+
+* _A statistical analysis was conducted to determine if there is a significant difference of tne rotation rate between Groups A and B, using:_
+
+
+|Test Type|	Description|
+|---------|------------|
+ttest_ind()|	It is a statistical test used to compare two groups and determine if there is a significant difference between them in terms of a variable we are measuring.|
+|ztest()|	Indicates how many standard deviations the observed result deviates from the expected value under the null hypothesis.|
+|chi2()	|The chi-squared test is used to determine the behavior of a certain variable and also to evaluate whether two or more variables are statistically independent|
+
+
+
+
+<details>
+  <summary>Rotation Rate Charts</summary>
+  <img src="https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Rotation%20Rate%20Charts.png" alt="Rotation Rate Charts">
+</details>
+
+
+
+### Results Interpretation: 📈 📝
+
+
+* **ttest:**
+     - _The p-value is 0.004, a p-value less than 0.05 (5%) is considered sufficient to reject the null hypothesis._
+
+  
+* **Z-test:** _-2.94: This value is negative, indicating that the proportion of people leaving the company in Group A (satisfied employees) is lower than in Group B (dissatisfied employees). The absolute value greater than 2 suggests that the difference is significant, but the direction of the difference is contrary to the numerical increase in the data (i.e., there is less turnover where we might expect more, or vice versa)._
+  
+    - _P-value: 0.0032: This is a very low value. Generally, a p-value less than 0.05 (5%) is considered sufficient to reject the null hypothesis. Therefore, a p-value of 0.0032 indicates that it is highly unlikely that the difference in turnover rates between the two groups is due to chance. Thus, we can conclude with reasonable certainty that there is a significant difference in turnover rates between satisfied and dissatisfied employees._
+
+      
+* **Chi2 test:**
+  
+   - _Chi-squared Test Statistic: 8.2479; this value indicates how much the observed frequencies deviate from the expected frequencies under the null hypothesis. A higher value suggests greater deviation._
+     
+   - p-value: 0.0041; It is less than the commonly accepted significance level of 0.05. There is sufficient evidence to reject the null hypothesis.
+ 
+  
+### Conclusion: ✅
+
+* _After subjecting the data to different statistical tests and with sufficient evidence, we decided to reject the null hypothesis based on the premise that employment status and satisfaction are independent._
+
+  
+* _We also identified a significant difference in satisfaction levels between current employees and former employees._
