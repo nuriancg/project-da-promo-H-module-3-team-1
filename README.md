@@ -13,7 +13,7 @@ _**Data Gadgets** es una empresa formada por un grupo de analistas de datos que 
 |-----|------------------|
 |_Patricia González_|https://github.com/Patri-EGG|
 |_Paola Sánchez_|https://github.com/paolasanchezsolorzano|
-|_Fernanda Martí_|https://github.com/fernandaMarti|
+|_Fernanda Marti_|https://github.com/fernandaMarti|
 |_Nuria Cano_| https://github.com/nuriancg|
 |_Raquel Castellanos_|https://github.com/RachelCaste|
 
