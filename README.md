@@ -88,7 +88,7 @@ _Para trabajar en este proyecto, necesitarás tener instaladas versiones de Pyth
 ###  Librerias a Importar: 📚
 
 <details>
-<summary>Librarias para comenzar a trabajar:</summary>
+<summary>Librerias para comenzar a trabajar:</summary>
 
 1. **Manipulación de Datos** 🧮 🐼
    - **Pandas**
