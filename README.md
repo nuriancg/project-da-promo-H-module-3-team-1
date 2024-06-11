@@ -1,7 +1,7 @@
 **(_English information at the end of this page_)**
 
 
-# Iniciativa de Optimización de Talento de ABC Corporation
+#  Optimización de Talento de ABC Corporation
       
 _La Iniciativa de Optimización de Talento de ABC Corporation tiene como objetivo abordar diferentes aspectos relacionados con los recursos humanos de su empresa. Para ello, han contratado los servicios de nuestra empresa, Data Gadgets._
 
