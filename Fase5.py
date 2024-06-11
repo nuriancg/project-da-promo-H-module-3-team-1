@@ -7,10 +7,10 @@ import warnings
 import os
 
 #Importamos otros ficheros
-import Fase5_menu as menu
-import Fase5_Carga_de_Datos as cdd
-import Fase5_Creación_de_la_Base_de_Datos as cbbdd
-import Fase5_Transformación_de_Datos as tdd
+import Fase5_archivos_apoyo.Fase5_menu as menu
+import Fase5_archivos_apoyo.Fase5_Carga_de_Datos as cdd
+import Fase5_archivos_apoyo.Fase5_Creación_de_la_Base_de_Datos as cbbdd
+import Fase5_archivos_apoyo.Fase5_Transformación_de_Datos as tdd
 
 # Ajustes de visualizacion
 pd.set_option('display.max_columns', None)
@@ -30,6 +30,7 @@ while True:
         if seleccion == '1':
                 os.system("clear")
                 menu.logo_inicio()
+                print('--------------------------------------------------------------------------')
                 print('')
                 #url_raw_data = 'https://raw.githubusercontent.com/nuriancg/project-da-promo-H-module-3-team-1/master/HR_RAW_DATA.csv'
                 print('* Introduce la dirección del archivo que quieres abrir y presiona "ENTER":')
@@ -53,6 +54,8 @@ while True:
         elif seleccion == '2':
                 os.system("clear")
                 menu.logo_inicio()
+                print('--------------------------------------------------------------------------')
+                print('')
                 try:
                         df = tdd.transformacion_datos(df)
                         df = tdd.cambio_employee_num(df)
@@ -87,6 +90,7 @@ while True:
         elif seleccion == '3':
                 os.system("clear")
                 menu.logo_inicio()
+                print('--------------------------------------------------------------------------')
                 print('')
                 print('* Introduce el nombre de la Base de Datos que quieres crear y presiona "ENTER":')
                 print('')
@@ -98,9 +102,10 @@ while True:
         elif seleccion == '4':
                 os.system("clear")
                 menu.logo_inicio()
+                print('--------------------------------------------------------------------------')
+                print('')
 
                 try:
-                        print('')
                         print(f'Quieres introducir los datos del archivo guardado en {url_clean_data} ?')
                         print('')
                         yon= (input('Selecciona Y (Yes) o N (No) y presiona "ENTER": ')).upper()
