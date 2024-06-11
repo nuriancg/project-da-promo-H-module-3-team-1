@@ -224,7 +224,7 @@ _Realizamos diferentes test para comparar nuestros dos grupos y seguir explorand
 
     
 * **Z-test:**
-     -_Con un stadistic de -2.94 y un p-value de 0.0032. Indica que la proporción de personas que dejaron la empresa en el Grupo A (empleados satisfechos) es menor que en el Grupo B (empleados descontentos). Esto refuerza la idea de que una mayor satisfacción laboral está asociada con una menor rotación de empleados. Así que de nuevo se rechaza la H0. Este valor es negativo, lo que indica que la proporción de personas que dejaron la empresa en el Grupo A (empleados satisfechos) es menor que en el Grupo B (empleados descontentos). El valor absoluto que es mayor que 2 sugiere que la diferencia es significativa, pero la dirección de la diferencia es contraria a la del incremento numérico en los datos (es decir, hay menos rotación donde podríamos esperar más, o viceversa)._
+     - _Con un stadistic de -2.94 y un p-value de 0.0032. Indica que la proporción de personas que dejaron la empresa en el Grupo A (empleados satisfechos) es menor que en el Grupo B (empleados descontentos). Esto refuerza la idea de que una mayor satisfacción laboral está asociada con una menor rotación de empleados. Así que de nuevo se rechaza la H0. Este valor es negativo, lo que indica que la proporción de personas que dejaron la empresa en el Grupo A (empleados satisfechos) es menor que en el Grupo B (empleados descontentos). El valor absoluto que es mayor que 2 sugiere que la diferencia es significativa, pero la dirección de la diferencia es contraria a la del incremento numérico en los datos (es decir, hay menos rotación donde podríamos esperar más, o viceversa)._
 
 
 * **Chi2 test**:
@@ -236,7 +236,7 @@ Llevamos a cabo nuevas pruebas para conocer en mayor profundidad las razones por
 
 Buscamos la corelación entre nuestras diferentes variables, y extraemos las siguientes conclusiones:
 
-1) _A más nivel de desempeño, más aumenta el porcentaje de subida de los salarios. Es señal de prácticas saludables de la empresa, que recompensan a los empleados que se esfuerzan y sacan el trabajo adelante._
+1. _A más nivel de desempeño, más aumenta el porcentaje de subida de los salarios. Es señal de prácticas saludables de la empresa, que recompensan a los empleados que se esfuerzan y sacan el trabajo adelante._
 
 _Como se puede apreciar en la siguiente gráfica, la presencia de outliers en ambos valores (3 y 4), más notorios en el 3, denotan ciertas excepciones en la política de aumento de salario de la empresa para los empleados que tienen un nivel de desempeño medio. Esto podría ser un tema que despertase diferentes sentimientos entre los empleados, por lo que podría ser interesante realizar estudios al respecto. 
 En base a ambas conclusiones, por ahora no podemos establecer motivos de descontento._
@@ -244,20 +244,20 @@ En base a ambas conclusiones, por ahora no podemos establecer motivos de descont
   <img src='https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/relacion%20desempe%C3%B1o%20y%20aumento%20de%20sueldo.png' alt="Relación entre desempeño y aumento de sueldo">
 
  
- 2) _A más años trabajados, más aumenta el cargo de las personas empleadas. Lo que indica que la empresa promociona a sus personas trabajadoras a medida que pasa el tiempo. Esto también es una buena práctica y no se puede asociar con un motivo de descontento._
+  2. _A más años trabajados, más aumenta el cargo de las personas empleadas. Lo que indica que la empresa promociona a sus personas trabajadoras a medida que pasa el tiempo. Esto también es una buena práctica y no se puede asociar con un motivo de descontento._
 
   <img src='https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/4%20Graficas.png' alt="diferentes graficas">
 
- 3) _A más años trabajados y a más años en la empresa, más años con el/la actual manager. Esto podría indicar que los/las managers mantienen su puesto de trabajo, es decir que hay cierta estabilidad. En principio también podría considerarse una buena práctica de la empresa, aunque podría estudiarse en mayor profundidad. No encontramos motivos de descontento._
+3.  _A más años trabajados y a más años en la empresa, más años con el/la actual manager. Esto podría indicar que los/las managers mantienen su puesto de trabajo, es decir que hay cierta estabilidad. En principio también podría considerarse una buena práctica de la empresa, aunque podría estudiarse en mayor profundidad. No encontramos motivos de descontento._
 
     <img src='https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/Relaci%C3%B3n%20a%C3%B1os%20en%20la%20compa%C3%B1ia%20y%20con%20actual%20manager.png' alt="Relación entre años en la compañia y años con actual manager">
 
 
-4) _A más edad, más experiencia en diferentes empresas. Los empleados entre 40 y 44 años han trabajado en más empresas que los empleados más jóvenes que ellos. Esto tiene sentido y no debería ser motivo de descontento._
+4.  _A más edad, más experiencia en diferentes empresas. Los empleados entre 40 y 44 años han trabajado en más empresas que los empleados más jóvenes que ellos. Esto tiene sentido y no debería ser motivo de descontento._
 
 <img src='https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/relacion%20entre%20edad%20y%20total%20empresas%20trabajadas.png' alt="Relación entre edad y total de empresas en las que ha trabajado"> 
 
-5) _A más estudios, mayor cargo en la empresa. Esto también tiene sentido y no debería ser un problema para los empleados/as._
+5.  _A más estudios, mayor cargo en la empresa. Esto también tiene sentido y no debería ser un problema para los empleados/as._
 
 <img src='https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/Relacion%20entreb%20estudio%20y%20nivel%20jer%C3%A1rquico.png' alt="Relación entre estudios y nivel jerárquico"> 
    
@@ -496,12 +496,6 @@ _ttest_ind()_|	_It is a statistical test used to compare two groups and determin
 |_chi2()_|_The chi-squared test is used to determine the behavior of a certain variable and also to evaluate whether two or more variables are statistically independent_|
 
 
-
-
-<details>
-  <summary>Rotation Rate Charts</summary>
-  <img src="https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/Rotation%20rate%20by%20Satisfaction%20Level.png" alt="Rotation Rate Chart">
-
 </details> 
 
 <details>
@@ -509,11 +503,12 @@ _ttest_ind()_|	_It is a statistical test used to compare two groups and determin
 
 _Of the information we have, we extract the rotation rate. It is the indicator that measures how often employees leave the organization and are replaced by new ones in the time period  being analyzed_.
 
-- _La turnover rate in Group A (with medium and high satisfaction) is 0.16%._
-- _La turnover rate in Group B (low satisfaction) is 0.24%._
+- _Rotation rate in Group A (with medium and high satisfaction) is 0.16%._
+- _Rotation rate in Group B (low satisfaction) is 0.24%._
   
 **_Based on this data, we see that job dissatisfaction or dissatisfaction is associated with a greater propensity to leave the company._**
 
+ <img src="https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/Rotation%20rate%20by%20Satisfaction%20Level.png" alt="Rotation Rate Chart">
 
 ### Test:_📈📝
 
@@ -534,7 +529,7 @@ _Of the information we have, we extract the rotation rate. It is the indicator t
 
 We made new tests to aquire a deeper understanding of the reasons why employees are dissatisfied; we looked for correlations among the different variables and extracted the following conclusions:
 
-1) _The higher the performance level, the greater the percentage increase in salaries. This is a sign of healthy company practices that reward employees who put in effort on their work._
+1. _The higher the performance level, the greater the percentage increase in salaries. This is a sign of healthy company practices that reward employees who put in effort on their work._
 
 _In the following chart, the presence of outliers in both values (3 and 4), major in 3, indicates certain exceptions in the company’s salary increase policy for employees with a medium performance level. This could be a topic that evokes different feelings among employees, so it might be interesting  to make future studies to explore this topic further._
 
@@ -542,20 +537,20 @@ _Based on both conclusions, we cannot currently establish reasons for discontent
 
 <img src='https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/Relation%20between%20Performance%20Rating%20and%20Salary%20Hike.png' alt="Performance Rating and salary Hike"> 
 
-2) _The longer employees work, the higher their position within the company. This indicates that the company promotes its employees over time. This practice is also positive and cannot be associated with discontent._
+2. _The longer employees work, the higher their position within the company. This indicates that the company promotes its employees over time. This practice is also positive and cannot be associated with discontent._
 
 <img src='https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/4%20charts.png' alt="Diferents charts"> 
 
 
-3) _The longer an employee has worked and the longer they have been with the company, the more years they spend with their current manager. This could indicate that managers maintain their positions, suggesting a certain level of stability. Initially, this could also be considered a good practice by the company, although it might warrant further study. We don’t find any reasons for discontent._
+3. _The longer an employee has worked and the longer they have been with the company, the more years they spend with their current manager. This could indicate that managers maintain their positions, suggesting a certain level of stability. Initially, this could also be considered a good practice by the company, although it might warrant further study. We don’t find any reasons for discontent._
 
 <img src='https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/Relation%20between%20Years%20at%20the%20Company%20and%20Years%20with%20Current%20Manager.png' alt="Relation Between years at company and years with current manager">    
 
-4) _As employees get older, they accumulate more experience across different companies. Employees between 40 and 44 years old have worked in more companies than their younger counterparts. This makes sense and should not be a cause for discontent._
+ 4. _As employees get older, they accumulate more experience across different companies. Employees between 40 and 44 years old have worked in more companies than their younger counterparts. This makes sense and should not be a cause for discontent._
 
 <img src='https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/Relation%20between%20Age%20and%20Total%20Companies%20Worked.png' alt="Relation Between age total companies worked">
 
-5)_The higher the level of education, the more senior the position within the company. This also makes sense and should not be a problem for employees._
+5. _The higher the level of education, the more senior the position within the company. This also makes sense and should not be a problem for employees._
 
 <img src='https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/Relation%20between%20Education%20and%20Job%20Level.png' alt="Relation Between Education Level andJob Level">
 
