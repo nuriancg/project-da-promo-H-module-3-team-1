@@ -85,10 +85,10 @@ _Para completar el desarrollo de este proyecto y garantizar la integridad de los
 ### Requisitos para Ejecutar el Proyecto 🐍 y 🐬
 _Para trabajar en este proyecto, necesitarás tener instaladas versiones de Python y MySQL._
 
-###  Librerias a Importar: 📚
+###  Librerías a Importar: 📚
 
 <details>
-<summary>Librerias para comenzar a trabajar:</summary>
+<summary>Librerías para comenzar a trabajar:</summary>
 
 1. **Manipulación de Datos** 🧮 🐼
    - **Pandas**
