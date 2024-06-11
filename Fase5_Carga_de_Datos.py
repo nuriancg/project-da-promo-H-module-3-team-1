@@ -6,6 +6,21 @@ import pandas as pd
 import os
 
 def insertar_datos_tabla(df,connection, nombre_tabla):
+
+    """
+    Esta función inserta datos en las tablas de la Base de Datos.
+
+    Parameters:
+    -----------------
+    df (DataFrame): El DataFrame del que queremos sacar la información.
+    connection: El connector mysql.connector.connect(host=, user=, password=, database=)
+    nombre_tabla (str): El nombre de la tabla al que queremos insertar la información
+
+    Returns:
+    ------------
+    n/a
+    """
+        
     tabla_columnas = {
         'Employee': ['Employee_Number', 'Attrition', 'Department', 'Job_Role', 'Job_Level', 'Age_Group'],
         'Human_Resources': [

@@ -48,6 +48,7 @@ while True:
                         print('Tiene que ser un archivo ".csv". Intentalo de nuevo.')
                         print('')
                         input('Presiona "ENTER" para continuar')
+                        url_raw_data=()
 
         elif seleccion == '2':
                 os.system("clear")
@@ -63,7 +64,6 @@ while True:
                         for _ in range ((len(list(df.columns))//5)+1):
                                 print(list(df.columns)[offset:(offset+5):])
                                 offset+=5
-                        #print(f'Columnas: \n{list(df.columns)}')
                         #url_clean_data='https://raw.githubusercontent.com/nuriancg/project-da-promo-H-module-3-team-1/master/HR_CLEAN_DATA.csv'
                         print('')
                         print('* Introduce la dirección dónde quieres guardar el archivo y presiona "ENTER":')
@@ -109,17 +109,17 @@ while True:
                         yon = 'N'
                 
                 if yon == 'Y':
-                        url_clean_data=url_clean_data
+                        url_datos=url_clean_data
                 elif yon == 'N':
                         print('')
                         print('* Introduce la dirección del archivo dónde tienes los datos:')
                         print('')
-                        url_clean_data=input('')   
+                        url_datos=input('')   
                         print('')   
 
                 try:
                         connection = mysql.connector.connect(host=host, user=user, password=password, database=schema_name)
-                        df = pd.read_csv(url_clean_data)   
+                        df = pd.read_csv(url_datos)   
                         for tabla in ['Employee', 'Human_Resources', 'Finance', 'Job_Benefits', 'Surveys']:
                                 cdd.insertar_datos_tabla(df, connection, tabla)
                         print('')
@@ -127,11 +127,13 @@ while True:
 
 
                 except:
+                        url_datos=()
                         print('!!! No hay una Base de datos creada o el fichero no tiene el formato correcto !!!')
                         print('')
-                        print(f'              \N{raised back of hand}   \N{raised back of hand}   \N{raised back of hand}   \N{raised back of hand}   \N{raised back of hand}')
+                        print(f'                      \N{raised back of hand}   \N{raised back of hand}   \N{raised back of hand}   \N{raised back of hand}   \N{raised back of hand}')
                         print('')
-                        print('El archivo tiene que ser de formato ".csv" y antes de cargar los datos debes de crear una Base de Datos seleccionando la OPCIÓN 3 del menú de inicio.')
+                        print('- El archivo tiene que ser de formato ".csv".')
+                        print('- Antes de cargar los datos debes de crear una Base de Datos seleccionando la OPCIÓN 3 del menú de inicio.')
                         print('')
                         input('Presiona "ENTER" para continuar')              
 

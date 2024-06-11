@@ -5,6 +5,22 @@ from mysql.connector import Error
 
 
 def crear_bbdd_y_tablas(host, user, password, schema_name):
+
+    """
+    Esta función crea una Base de Datos.
+
+    Parameters:
+    -----------------
+    host (str): El nombre del host.
+    user (str): El nombre del user.
+    password (str): La contraseña para la conexión.
+    schema_name (str): El nombre de la Base de Datos.
+
+    Returns:
+    ------------
+    n/a
+    """
+
     try:
         connection = mysql.connector.connect(host=host, user=user, password=password)
         

@@ -10,6 +10,19 @@ from colorama import init
 
 #Creamos una función que crea nuestro logo
 def logo_inicio():
+
+    """
+    Esta función crea un logo que se va a visualizar en la terminal.
+
+    Parameters:
+    -----------------
+    n/a
+
+    Returns:
+    ------------
+    n/a
+    """
+        
     os.system("clear")
 
     # Renderiza "DATA" en 'color'
@@ -28,6 +41,18 @@ def logo_inicio():
 
 #Definimos el menú
 def menu():
+
+    """
+    Esta función muestra el menú.
+
+    Parameters:
+    -----------------
+    n/a
+
+    Returns:
+    ------------
+    seleccion (str): El input en formato str
+    """
 
     #limpiamos la pantalla
 
