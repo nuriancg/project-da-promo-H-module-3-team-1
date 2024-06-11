@@ -7,7 +7,7 @@ _La Iniciativa de Optimización de Talento de ABC Corporation tiene como objetiv
 
 _**Data Gadgets** es una empresa formada por un grupo de analistas de datos que utilizan metodología ágil para cumplir eficientemente con los objetivos propuestos en tiempo récord._
 
-### Equipo Data Gatgets: 📈🔍
+## Equipo Data Gatgets: 📈🔍
 
 |Names|GitHub_link_user_name|
 |-----|------------------|
@@ -18,14 +18,14 @@ _**Data Gadgets** es una empresa formada por un grupo de analistas de datos que 
 |_Raquel Castellanos_|https://github.com/RachelCaste|
 
 
-### Descripción del Cliente 👨‍💻
+## Descripción del Cliente 👨‍💻
 
 _ABC Corporation, fundada en 1980 en California, es una firma de consultoría tecnológica especializada en proporcionar soluciones de inteligencia artificial (IA) y aprendizaje automático a empresas de diversas industrias._
 
-### Objetivo: 🎯
+## Objetivo: 🎯
 _Presentar los resultados del análisis exploratorio de datos, diseñar un experimento A/B para probar hipótesis críticas y analizar los resultados para proporcionar a ABC Corporation información valiosa y veraz._
 
-### Documentación Inicial 📌
+## Documentación Inicial 📌
 _En esta sección, encontrarás la descripción de cada una de las columnas del documento original._
 
 <details>
@@ -68,7 +68,7 @@ _En esta sección, encontrarás la descripción de cada una de las columnas del 
 | YearsInCurrentRole  | Number of years the employee has been in their current role.                                     |
 </details>
 
-### Fases del Proyecto 🔄
+## Fases del Proyecto 🔄
 
 _Para completar el desarrollo de este proyecto y garantizar la integridad de los datos proporcionados por el cliente, se llevaron a cabo cinco fases:_
 
@@ -82,10 +82,10 @@ _Para completar el desarrollo de este proyecto y garantizar la integridad de los
 
 
 
-### Requisitos para Ejecutar el Proyecto 🐍 y 🐬
+## Requisitos para Ejecutar el Proyecto 🐍 y 🐬
 _Para trabajar en este proyecto, necesitarás tener instaladas versiones de Python y MySQL._
 
-###  Librerías a Importar: 📚
+##  Librerías a Importar: 📚
 
 <details>
 <summary>Librerías para comenzar a trabajar:</summary>
@@ -101,8 +101,8 @@ _Para trabajar en este proyecto, necesitarás tener instaladas versiones de Pyth
      -**KNNImputer:** _Estima valores faltantes utilizando el método de los vecinos más cercanos (K-Nearest Neighbors)._
        
 3. **Visualización de datos** 📊
-   -**Seaborn**: _Provides a high-level interface for creating attractive and informative statistical graphics._
-   -**Matplotlib**:_Allows the creation of high-quality static plots suitable for publications and reports._
+   -**Seaborn**: _Proporciona una interfaz de alto nivel para crear gráficos estadísticos atractivos e informativos._
+   -**Matplotlib**: _Es una biblioteca de visualización de datos en Python que permite crear gráficos estáticos de alta calidad adecuados para publicaciones e informes._
 
 4. **Estadísticas y Pruebas** 🧪
 -**Scipy:** _Proporciona funciones estadísticas y pruebas de hipótesis (por ejemplo, pruebas t, pruebas de chi-cuadrado, etc.)_
@@ -112,7 +112,7 @@ _Para trabajar en este proyecto, necesitarás tener instaladas versiones de Pyth
 
 </details>
 
-### Estructura de la Base de Datos 📁
+## Estructura de la Base de Datos 📁
 
 _En este repositorio encontrarás una estructura en forma de estrella, que simplifica las consultas analíticas y es útil para el análisis de grandes volúmenes de datos._
 
@@ -121,7 +121,7 @@ _En este repositorio encontrarás una estructura en forma de estrella, que simpl
   <img src='https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/Diagrama%20BBDD.png' alt="Diagrama BBDD">
 </details>
 
-### Descripción de la Información en la Base de Datos Final 📌
+## Descripción de la Información en la Base de Datos Final 📌
 
 _En este desplegable, encontrarás la descripción y distribución de cada una de las columnas del documento final._ 😊
 
@@ -167,33 +167,31 @@ RemoteWork| Whether the employee can work remotely or not.|
 
 </details>
 
-### Resolución del Objetivo  🎯🎯
+## Resolución del Objetivo  🎯🎯
 
 
-* _Para la resolución de nuestro objetivo se dividieron los empleados en dos grupos según el nivel de satisfacción; se calculó la tasa de rotación para cada grupo_
-
-  
- 
-|Grupo A| Satisfechos|
-|------------------------|--------------------------------------------------------------------------| 
-|**Grupo B** |**Descontentos**|
-
-
-
-* _Se establecieron dos hipótesis:_
-  
- 
-|Hipótesis Nula (H0)| No hay asociación entre el estatus de empleo y el nivel de satisfacción.|
-|------------------------|--------------------------------------------------------------------------| 
-|**Hipótesis Alternativa (H1)**|**Existe una asociación entre el estatus de empleo y el nivel de satisfacción.**|
-
-
-
-* _Se llevó a cabo un análisis estadístico para determinar si hay una diferencia significativa en la tasa de rotación entre los grupos A y B, aplicando:_
+* _Para abordar nuestro objetivo, se llevó a cabo un análisis estadístico con el propósito de determinar si existe una diferencia significativa en la tasa de rotación de los empleados según su nivel de satisfacción en la empresa. Para ello, se dividió a los empleados en dos grupos según su nivel de satisfacción, y posteriormente se calculó la tasa de rotación para cada uno de estos grupos._
 
   
+|Grupo|Categoría|Descripción|
+|------------------------|--------------------------------------------------------------------------|-------------------|
+|Grupo A| Satisfechos| Empleados con un nivel de satisfacción en el trabajo igual o superior a 3 en una escala de 1 a 5.|
+|Grupo B |Descontentos|Empleados con un nivel de satisfacción en el trabajo inferior a 3 en una escala de 1 a 5.|
 
-|Tipo de prueba| Descripción|
+
+
+* ### _Se establecieron dos hipótesis:_
+  
+
+ | _Hipótesis_|_Descripción_|
+ |------------------------|--------------------------------------------------------------------------| 
+|_Hipótesis Nula (H0)_| _Afirmamos que no hay diferencia; la tasa de rotación no afecta al nivel de satisfacción._|
+|_Hipótesis Alternativa (H1)_|_Afirmamos que sí hay diferencia, el nivel de satisfacción afecta significativamente a la tasa de rotación._|
+
+
+* ### Test: 📈📝
+
+|_Tipo de prueba_| _Descripción_|
  |--------------------|---------|
  |ttest_ind()| _Es una prueba estadística que se utiliza para comparar dos grupos y determinar si hay una diferencia significativa entre ellos en términos de una variable que estamos midiendo._|
 |ztest()| _Indica cuántas desviaciones estándar está el resultado observado lejos del valor esperado bajo la hipótesis nula._| 
@@ -202,37 +200,76 @@ RemoteWork| Whether the employee can work remotely or not.|
 
 
 <details>
-  <summary>Gráficos Tasas de Rotación</summary>
-  <img src="https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/Gr%C3%A1ficos%20Tasas%20de%20Rotaci%C3%B3n.png" alt="Gráficos Tasas de Rotación">
-</details>
+<summary> Analisis completo Tasa de Rotación</summary>
 
+_De toda la información que tenemos, extraemos la tasa de rotación. Es el indicador que mide la frecuencia con la que los empleados dejan la organización y son reemplazados por otros nuevos en el período de tiempo del que tenemos datos.**._
 
-### Interpretación De Resultados:_📈📝
-
-
-*  **ttest:**
+- _La tasa de rotación en el Grupo A (con una satisfacción media y alta) es de 0.16%._
+- _La tasa de rotación en el Grupo B(satisfaccion baja) es de 0.24%._
   
-      - _El p_value es: 0.004,  un p-valor menor que 0.05 (5%) se considera suficiente para rechazar la hipótesis nula_
+**Según estos datos, vemos que el descontento o la insatisfacción laboral está asociada con una mayor propensión a dejar la empresa.**
+
+
+  <img src='https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/tasa%20de%20rotacion%20segun%20el%20nivel%20de%20satisfaccion.png' alt="Gráfico Tasas de Rotación">
+
+  
+### Test:_📈📝
+
+
+_Realizamos diferentes test para comparar nuestros dos grupos y seguir explorando si hay una diferencia significativa o no en la tasa de rotación según la satisfacción._
+
+*  **El t-test de Student:**
+  
+      - _Con p_value de: (0.004),  indica que SÍ hay diferencia significativa entre los dos grupos. Por lo tanto, en este estudio se rechaza la H0._
 
     
-* **Z-test:** _-2.94: Este valor es negativo, lo que indica que la proporción de personas que dejaron la empresa en el Grupo A (empleados satisfechos) es menor que en el Grupo B (empleados descontentos). El valor absoluto que es mayor que 2 sugiere que la diferencia es significativa, pero la dirección de la diferencia es contraria a la del incremento numérico en los datos (es decir, hay menos rotación donde podríamos esperar más, o viceversa)._
-
-     - _P-value: 0.0032: Este es un valor muy bajo. Generalmente, un p-valor menor que 0.05 (5%) se considera suficiente para rechazar la hipótesis nula. Por lo tanto, un p-valor de 0.0032 indica que es muy improbable que la diferencia en las tasas de rotación entre los dos grupos se deba al azar. Asi que, podemos concluir con bastante seguridad que existe una diferencia significativa en las tasas de rotación entre los empleados satisfechos y los descontentos._
+* **Z-test:**
+     -_Con un stadistic de -2.94 y un p-value de 0.0032. Indica que la proporción de personas que dejaron la empresa en el Grupo A (empleados satisfechos) es menor que en el Grupo B (empleados descontentos). Esto refuerza la idea de que una mayor satisfacción laboral está asociada con una menor rotación de empleados. Así que de nuevo se rechaza la H0. Este valor es negativo, lo que indica que la proporción de personas que dejaron la empresa en el Grupo A (empleados satisfechos) es menor que en el Grupo B (empleados descontentos). El valor absoluto que es mayor que 2 sugiere que la diferencia es significativa, pero la dirección de la diferencia es contraria a la del incremento numérico en los datos (es decir, hay menos rotación donde podríamos esperar más, o viceversa)._
 
 
 * **Chi2 test**:
-     - _Chi-squared Test Statistic: 8.2479; este valor indica cuánto se desvían las frecuencias observadas de las frecuencias esperadas bajo la hipótesis nula. Un valor más alto sugiere una mayor desviación._
+     - _Chi-squared Test Statistic: con un valor de 8.2479 y un p-value: 0.0041, que nos indica nuevamente que existe una diferencia significativa en los niveles de satisfacción y la tasa de rotación. Hay evidencia suficiente para rechazar la hipótesisi nula._
+ 
+## _Pruebas adicionales_
 
-     - _p-value: 0.0041; Es menor que el nivel de significancia comúnmente aceptado de 0.05. Hay evidencia suficiente para rechazar la hipótesisi nula._
+Llevamos a cabo nuevas pruebas para conocer en mayor profundidad las razones por las que hay empleados descontentos. 
+
+Buscamos la corelación entre nuestras diferentes variables, y extraemos las siguientes conclusiones:
+
+1) _A más nivel de desempeño, más aumenta el porcentaje de subida de los salarios. Es señal de prácticas saludables de la empresa, que recompensan a los empleados que se esfuerzan y sacan el trabajo adelante._
+
+_Como se puede apreciar en la siguiente gráfica, la presencia de outliers en ambos valores (3 y 4), más notorios en el 3, denotan ciertas excepciones en la política de aumento de salario de la empresa para los empleados que tienen un nivel de desempeño medio. Esto podría ser un tema que despertase diferentes sentimientos entre los empleados, por lo que podría ser interesante realizar estudios al respecto. 
+En base a ambas conclusiones, por ahora no podemos establecer motivos de descontento._
+
+  <img src='https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/relacion%20desempe%C3%B1o%20y%20aumento%20de%20sueldo.png' alt="Relación entre desempeño y aumento de sueldo">
+
+ 
+ 2) _A más años trabajados, más aumenta el cargo de las personas empleadas. Lo que indica que la empresa promociona a sus personas trabajadoras a medida que pasa el tiempo. Esto también es una buena práctica y no se puede asociar con un motivo de descontento._
+
+  <img src='https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/4%20Graficas.png' alt="diferentes graficas">
+
+ 3) _A más años trabajados y a más años en la empresa, más años con el/la actual manager. Esto podría indicar que los/las managers mantienen su puesto de trabajo, es decir que hay cierta estabilidad. En principio también podría considerarse una buena práctica de la empresa, aunque podría estudiarse en mayor profundidad. No encontramos motivos de descontento._
+
+    <img src='https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/Relaci%C3%B3n%20a%C3%B1os%20en%20la%20compa%C3%B1ia%20y%20con%20actual%20manager.png' alt="Relación entre años en la compañia y años con actual manager">
 
 
+4) _A más edad, más experiencia en diferentes empresas. Los empleados entre 40 y 44 años han trabajado en más empresas que los empleados más jóvenes que ellos. Esto tiene sentido y no debería ser motivo de descontento._
+
+<img src='https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/relacion%20entre%20edad%20y%20total%20empresas%20trabajadas.png' alt="Relación entre edad y total de empresas en las que ha trabajado"> 
+
+5) _A más estudios, mayor cargo en la empresa. Esto también tiene sentido y no debería ser un problema para los empleados/as._
+
+<img src='https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/Relacion%20entreb%20estudio%20y%20nivel%20jer%C3%A1rquico.png' alt="Relación entre estudios y nivel jerárquico"> 
    
-### Conclusión: ✅
+</details>
+   
+## Conclusión: ✅
+
+_Basándonos en los resultados obtenidos, podemos inferir que la empresa implementa prácticas favorables hacia sus empleados, como aumentos salariales o ascensos. Sin embargo, el descontento de los empleados podría estar relacionado con otras variables que no se han estudiado en la actualidad._
+
+_Por lo tanto, recomendamos llevar a cabo encuestas dirigidas a los empleados, permitiéndoles expresar los motivos de su insatisfacción. Esto proporcionaría una visión más completa y ayudaría a abordar cualquier problema subyacente de manera efectiva_
 
 
-* _Después de someter los datos a diferentes pruebas de estadística y con la suficiente evidencia decidimos rechazar la hipótesis nula que está basada en la premisa que el estatus de empleo y la satisfacción son independientes._ 
-
-* _También identificamos que existe una diferencia significativa en los niveles de satisfacción entre los empleados actuales y los exempleados._
 
 _______________________________________________________________________________________________________________________________________
 
@@ -429,63 +466,104 @@ RemoteWork| Whether the employee can work remotely or not.|
 ### Target Resolution 🎯🎯
 
 
-_For the resolution of our objective, employees were divided into two groups based on their satisfaction level; the turnover rate was calculated for each group._
+_A statistical analysis was carried out in order to determine if there is a significant difference in the rotation rate of employees according to their level of satisfaction in the company.To do this, employees were divided into two groups according to their level of satisfaction, and then the rotation rate for each of these groups was calculated._
 
 
-|Group A| Satisfied|
-|--------|----------|
-|**Group B**|**Dissatisfied**|
+  
+|Group|Category|Description|
+|------------------------|--------------------------------------------------------------------------|-------------------|
+|Group A| Satisfied| Employees with a job satisfaction level equal to or greater than 3 on a scale of 1 to 5.|
+|Group B |Discontents|Employees with a job satisfaction level of less than 3 on a scale of 1 to 5.|
 
 
-* _Two hypotheses were established:_
+* ## _Two hypotheses were established:_
 
 
-|Null Hypothesis (H0)	|There is no association between employment status and satisfaction level.|
-|--------------------|------------------------------------------------------|
-|**Alternative Hypothesis (H1)**|	**There is an association between employment status and satisfaction level**.|
+  
+| _Hypothesis_|_Description_|
+ |------------------------|--------------------------------------------------------------------------| 
+|_ Null hypothesis  (H0)_ | _Affirm  that there is no difference; Turnover rate does not affect the level of satisfacción._|
+|_ Alternative hypothesis  (H1)_| _Affirmthere is a difference, the level of satisfaction significantly affects the rate of rotación._|
 
 
-* _A statistical analysis was conducted to determine if there is a significant difference of tne rotation rate between Groups A and B, using:_
 
+### Test: 📈 📝
 
 |Test Type|	Description|
 |---------|------------|
-ttest_ind()|	It is a statistical test used to compare two groups and determine if there is a significant difference between them in terms of a variable we are measuring.|
-|ztest()|	Indicates how many standard deviations the observed result deviates from the expected value under the null hypothesis.|
-|chi2()	|The chi-squared test is used to determine the behavior of a certain variable and also to evaluate whether two or more variables are statistically independent|
+_ttest_ind()_|	_It is a statistical test used to compare two groups and determine if there is a significant difference between them in terms of a variable we are measuring._|
+|_ztest()_|	_Indicates how many standard deviations the observed result deviates from the expected value under the null hypothesis._|
+|_chi2()_|_The chi-squared test is used to determine the behavior of a certain variable and also to evaluate whether two or more variables are statistically independent_|
 
 
 
 
 <details>
   <summary>Rotation Rate Charts</summary>
-  <img src="https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/Rotation%20Rate%20Charts.png" alt="Rotation Rate Charts">
-</details>
+  <img src="https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/Rotation%20rate%20by%20Satisfaction%20Level.png" alt="Rotation Rate Chart">
+
+</details> 
+
+<details>
+<summary> Full Rotation Rate Analysis</summary> 
+
+_Of the information we have, we extract the rotation rate. It is the indicator that measures how often employees leave the organization and are replaced by new ones in the time period  being analyzed_.
+
+- _La turnover rate in Group A (with medium and high satisfaction) is 0.16%._
+- _La turnover rate in Group B (low satisfaction) is 0.24%._
+  
+**_Based on this data, we see that job dissatisfaction or dissatisfaction is associated with a greater propensity to leave the company._**
 
 
-
-### Results Interpretation: 📈 📝
-
+### Test:_📈📝
 
 * **ttest:**
-     - _The p-value is 0.004, a p-value less than 0.05 (5%) is considered sufficient to reject the null hypothesis._
+     - _With a p-value of 0.004, it indicates that there is a significant difference between the two groups. Therefore, in this study, we reject the null hypothesis (H0)._
 
   
-* **Z-test:** _-2.94: This value is negative, indicating that the proportion of people leaving the company in Group A (satisfied employees) is lower than in Group B (dissatisfied employees). The absolute value greater than 2 suggests that the difference is significant, but the direction of the difference is contrary to the numerical increase in the data (i.e., there is less turnover where we might expect more, or vice versa)._
+* **Z-test:**
   
-    - _P-value: 0.0032: This is a very low value. Generally, a p-value less than 0.05 (5%) is considered sufficient to reject the null hypothesis. Therefore, a p-value of 0.0032 indicates that it is highly unlikely that the difference in turnover rates between the two groups is due to chance. Thus, we can conclude with reasonable certainty that there is a significant difference in turnover rates between satisfied and dissatisfied employees._
+  - _With a statistic of -2.94 and a p-value of 0.0032, it indicates that the proportion of people who left the company in Group A (satisfied employees) is lower than in Group B (dissatisfied employees). This reinforces the idea that higher job satisfaction is associated with lower employee turnover. Therefore, we once again reject the null hypothesis. The negative value suggests that the proportion of people who left the company in Group A (satisfied employees) is lower than in Group B (dissatisfied employees). The absolute value, greater than 2, implies that the difference is significant, but the direction of the difference contradicts the numerical increase in the data (i.e., there is less turnover where we might expect more, or vice versa)._
 
       
 * **Chi2 test:**
   
-   - _Chi-squared Test Statistic: 8.2479; this value indicates how much the observed frequencies deviate from the expected frequencies under the null hypothesis. A higher value suggests greater deviation._
-     
-   - p-value: 0.0041; It is less than the commonly accepted significance level of 0.05. There is sufficient evidence to reject the null hypothesis.
+   - _A value of 8.2479 with a p-value of 0.0041 indicates once again that there is a significant difference in satisfaction levels and turnover rate. There is sufficient evidence to reject the null hypothesis._
  
-  
+ ### ADDITIONAL TESTS
+
+We made new tests to aquire a deeper understanding of the reasons why employees are dissatisfied; we looked for correlations among the different variables and extracted the following conclusions:
+
+1) _The higher the performance level, the greater the percentage increase in salaries. This is a sign of healthy company practices that reward employees who put in effort on their work._
+
+_In the following chart, the presence of outliers in both values (3 and 4), major in 3, indicates certain exceptions in the company’s salary increase policy for employees with a medium performance level. This could be a topic that evokes different feelings among employees, so it might be interesting  to make future studies to explore this topic further._
+
+_Based on both conclusions, we cannot currently establish reasons for discontent._
+
+<img src='https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/Relation%20between%20Performance%20Rating%20and%20Salary%20Hike.png' alt="Performance Rating and salary Hike"> 
+
+2) _The longer employees work, the higher their position within the company. This indicates that the company promotes its employees over time. This practice is also positive and cannot be associated with discontent._
+
+<img src='https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/4%20charts.png' alt="Diferents charts"> 
+
+
+3) _The longer an employee has worked and the longer they have been with the company, the more years they spend with their current manager. This could indicate that managers maintain their positions, suggesting a certain level of stability. Initially, this could also be considered a good practice by the company, although it might warrant further study. We don’t find any reasons for discontent._
+
+<img src='https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/Relation%20between%20Years%20at%20the%20Company%20and%20Years%20with%20Current%20Manager.png' alt="Relation Between years at company and years with current manager">    
+
+4) _As employees get older, they accumulate more experience across different companies. Employees between 40 and 44 years old have worked in more companies than their younger counterparts. This makes sense and should not be a cause for discontent._
+
+<img src='https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/Relation%20between%20Age%20and%20Total%20Companies%20Worked.png' alt="Relation Between age total companies worked">
+
+5)_The higher the level of education, the more senior the position within the company. This also makes sense and should not be a problem for employees._
+
+<img src='https://github.com/nuriancg/project-da-promo-H-module-3-team-1/blob/master/Imagenes/Relation%20between%20Education%20and%20Job%20Level.png' alt="Relation Between Education Level andJob Level">
+
+
+
+
 ### Conclusion: ✅
 
-* _After subjecting the data to different statistical tests and with sufficient evidence, we decided to reject the null hypothesis based on the premise that employment status and satisfaction are independent._
+_Based on the results obtained, we can infer that the company implements favorable practices for its employees, such as salary increases or promotions. However, employee dissatisfaction may be related to other variables that have not been studied currently._
 
-  
-* _We also identified a significant difference in satisfaction levels between current employees and former employees._
+_Therefore, we recommend conducting surveys targeted at employees, allowing them to express the reasons for their dissatisfaction. This would provide a more comprehensive view and help address any underlying issues effectively._
