@@ -496,7 +496,7 @@ _ttest_ind()_|	_It is a statistical test used to compare two groups and determin
 |_chi2()_|_The chi-squared test is used to determine the behavior of a certain variable and also to evaluate whether two or more variables are statistically independent_|
 
 
-</details> 
+
 
 <details>
 <summary> Full Rotation Rate Analysis</summary> 
@@ -562,3 +562,5 @@ _Based on both conclusions, we cannot currently establish reasons for discontent
 _Based on the results obtained, we can infer that the company implements favorable practices for its employees, such as salary increases or promotions. However, employee dissatisfaction may be related to other variables that have not been studied currently._
 
 _Therefore, we recommend conducting surveys targeted at employees, allowing them to express the reasons for their dissatisfaction. This would provide a more comprehensive view and help address any underlying issues effectively._
+
+</details> 
