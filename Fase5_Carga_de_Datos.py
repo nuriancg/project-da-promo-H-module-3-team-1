@@ -32,15 +32,15 @@ def insertar_datos_tabla(df,connection, nombre_tabla):
             try:
                 cursor.executemany(sql, data)
                 connection.commit()
-                print(f"Datos insertados correctamente en la tabla {nombre_tabla}.")
+                print(f"* Datos insertados correctamente en la tabla {nombre_tabla}.")
             except Error as e:
-                print(f"Error al insertar datos en la tabla {nombre_tabla}: {e}")
+                print(f"!!! Error al insertar datos en la tabla {nombre_tabla}: {e}")
                 connection.rollback() # Deshace los datos insertados antes del error
             finally:
                 cursor.close()
         else:
-            print(f"Faltan columnas en el DataFrame para insertar en la tabla {nombre_tabla}.")
+            print(f"!!! Faltan columnas en el DataFrame para insertar en la tabla {nombre_tabla}.")
     else:
-        print("Nombre de tabla no reconocido.")
+        print("!!! Nombre de tabla no reconocido.")
 
     cursor.close()

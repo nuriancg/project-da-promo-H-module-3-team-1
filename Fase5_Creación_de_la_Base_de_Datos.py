@@ -12,7 +12,8 @@ def crear_bbdd_y_tablas(host, user, password, schema_name):
             cursor = connection.cursor()
             
             cursor.execute(f"CREATE DATABASE IF NOT EXISTS {schema_name}")
-            print(f"Base de datos '{schema_name}' creada o ya existente.")
+            print('')
+            print(f"* Base de datos '{schema_name}' creada correctamente o ya existente.")
             connection.commit()
 
             # Conectarmos a la base de datos creada
@@ -92,12 +93,15 @@ def crear_bbdd_y_tablas(host, user, password, schema_name):
                 );
             """]
                 # Ejecuta cada consulta de creación de tablas individualmente porque si lo hacemos a la vez da error.
+            num_tablas=0
             for query in queries:
                 cursor.execute(query)
                 connection.commit()
-                print('Tablas creadas correctamente')
+                num_tablas+=1
+            print(f'* {num_tablas} tablas creadas correctamente')
     except Error as e:
-            print(f"Error al crear tablas: {e}")
+            print('')
+            print(f"!!! Error al crear tablas: {e}")
             connection.rollback()  # Retrocede cambios si hay un error
     finally:
             cursor.close() 
