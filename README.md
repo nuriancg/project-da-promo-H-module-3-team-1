@@ -230,7 +230,7 @@ RemoteWork| Whether the employee can work remotely or not.|
 ### Conclusión: ✅
 
 
-* _Después de someter los datos a diferentes pruebas de estadéstica y con la suficiente evidencia decidimos rechazar la hipótesis nula que está basada en la premisa que el estatus de empleo y la satisfacción son independientes._ 
+* _Después de someter los datos a diferentes pruebas de estadística y con la suficiente evidencia decidimos rechazar la hipótesis nula que está basada en la premisa que el estatus de empleo y la satisfacción son independientes._ 
 
 * _También identificamos que existe una diferencia significativa en los niveles de satisfacción entre los empleados actuales y los exempleados._
 
