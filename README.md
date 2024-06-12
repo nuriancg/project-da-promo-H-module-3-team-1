@@ -5,7 +5,7 @@
       
 _La Iniciativa de Optimización de Talento de ABC Corporation tiene como objetivo abordar diferentes aspectos relacionados con los recursos humanos de su empresa. Para ello, han contratado los servicios de nuestra empresa, Data Gadgets._
 
-_**Data Gadgets** es una empresa formada por un grupo de analistas de datos que utilizan metodología ágil para cumplir eficientemente con los objetivos propuestos en tiempo récord._
+_**Data Gadgets** es una empresa formada por un grupo de analistas de datos que utilizamos metodología ágil para cumplir eficientemente con los objetivos propuestos en tiempo récord._
 
 ## Equipo Data Gatgets: 📈🔍
 
@@ -23,7 +23,7 @@ _**Data Gadgets** es una empresa formada por un grupo de analistas de datos que 
 _ABC Corporation, fundada en 1980 en California, es una firma de consultoría tecnológica especializada en proporcionar soluciones de inteligencia artificial (IA) y aprendizaje automático a empresas de diversas industrias._
 
 ## Objetivo: 🎯
-_Presentar los resultados del análisis exploratorio de datos, diseñar un experimento A/B para probar hipótesis críticas y analizar los resultados para proporcionar a ABC Corporation información valiosa y veraz._
+_Identificar factores clave que influyen en la satisfacción de sus empleados y, en última instancia, en la retención de los mismos. Presentar los resultados del análisis exploratorio de datos, diseñar un experimento A/B para probar hipótesis críticas y analizar los resultados para proporcionar a ABC Corporation información valiosa y veraz._
 
 ## Documentación Inicial 📌
 _En esta sección, encontrarás la descripción de cada una de las columnas del documento original._
@@ -83,7 +83,7 @@ _Para completar el desarrollo de este proyecto y garantizar la integridad de los
 
 
 ## Requisitos para Ejecutar el Proyecto 🐍 y 🐬
-_Para trabajar en este proyecto, necesitarás tener instaladas versiones de Python y MySQL._
+_Para trabajar o abrir este proyecto, necesitarás tener instaladas versiones de Python y MySQL._
 
 ##  Librerías a Importar: 📚
 
@@ -96,7 +96,7 @@ _Para trabajar en este proyecto, necesitarás tener instaladas versiones de Pyth
 
 2. **Imputación de datos** 🕵️‍♂️
    - Scikit-learn
-     -**SimpleImputer:** _Imputa valores faltantes en un conjunto de datos utilizando estrategias simples como la media, la mediana, la moda, entre             otras._
+     -**SimpleImputer:** _Imputa valores faltantes en un conjunto de datos utilizando estrategias simples como la media, la mediana o la moda, entre             otras._
      -**IterativeImputer:** _Utiliza técnicas iterativas, especialmente útiles cuando las relaciones entre variables son complejas._
      -**KNNImputer:** _Estima valores faltantes utilizando el método de los vecinos más cercanos (K-Nearest Neighbors)._
        
@@ -108,7 +108,7 @@ _Para trabajar en este proyecto, necesitarás tener instaladas versiones de Pyth
 -**Scipy:** _Proporciona funciones estadísticas y pruebas de hipótesis (por ejemplo, pruebas t, pruebas de chi-cuadrado, etc.)_
    
 5. **Conexión a la Base de Datos** ⚡
--**mysql.connector:** _Un conector para MySQL que permite establecer conexiones y realizar operaciones en bases de datos MySQL desde Python._
+-**mysql.connector:** _Conector para MySQL que permite establecer conexiones y realizar operaciones en bases de datos MySQL desde Python._
 
 </details>
 
@@ -194,8 +194,8 @@ RemoteWork| Whether the employee can work remotely or not.|
 |_Tipo de prueba_| _Descripción_|
  |--------------------|---------|
  |ttest_ind()| _Es una prueba estadística que se utiliza para comparar dos grupos y determinar si hay una diferencia significativa entre ellos en términos de una variable que estamos midiendo._|
-|ztest()| _Indica cuántas desviaciones estándar está el resultado observado lejos del valor esperado bajo la hipótesis nula._| 
-|chi2()|_La prueba chi cuadrado  se utiliza para determinar el comportamiento de cierta variable y también para evaluar si dos o más variables son estadísticamente independientes_|
+|ztest()| _Indica si el resultado observado está lejos del valor esperado bajo la hipótesis nula mediante la desviación estándar._| 
+|chi2()|_La prueba chi cuadrado se utiliza para determinar el comportamiento de cierta variable y también para evaluar si dos o más variables son estadísticamente independientes_|
 
 
 
